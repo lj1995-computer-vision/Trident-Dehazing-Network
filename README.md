@@ -1,13 +1,13 @@
 # Trident Dehazing Network
 NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020)  **1st** Solution.
 
-### Dependencies:
+### Environment:
 
 - Ubuntu16.04
 - Python3.6
 - NVIDIA GPU+CUDA8
 
-### Packages:
+### Dependencies:
 
 - pretrainedmodels==0.7.4
 - torchvision==0.2.1
@@ -29,3 +29,7 @@ python test.py
 https://pan.baidu.com/s/1l0-hOnIAAbFzmauUmFaRjw  password: 22so
 
 https://drive.google.com/file/d/1LcSsCWGLkjmq5o08yhMbSU6DjCGugmRw
+
+### Another solution (**2nd** Solution, Knowledge Transfer Dehazing Network) of our team: 
+
+https://github.com/GlassyWu/KTDN
