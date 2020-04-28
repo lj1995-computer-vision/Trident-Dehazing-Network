@@ -1,4 +1,4 @@
-import torch,pdb
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import pretrainedmodels
@@ -11,7 +11,7 @@ try:
 except ImportError:
     raise ImportError('Failed to import DCNv2 module.')
 
-#Wide Activation Block
+#   Wide Activation Block
 class WAB(nn.Module):
     def __init__(self,n_feats,expand=4):
         super(WAB, self).__init__()
@@ -190,8 +190,8 @@ class Net(nn.Module):
             dpn92 = pretrainedmodels.__dict__['dpn92'](num_classes=1000, pretrained='imagenet+5k').features
         else:dpn92 = pretrainedmodels.__dict__['dpn92'](num_classes=1000, pretrained=False).features
         
-        #   dx:downsample factor is x
-        #   ux:upsample factor is x
+        #   dx: downsample to factor x
+        #   ux: upsample to factor x
 
         #   Haze Density Map Generate sub-Net
         self.d64u1=UNet(input_nc=3,output_nc=3, nf=8)
