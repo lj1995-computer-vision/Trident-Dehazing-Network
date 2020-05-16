@@ -1,6 +1,8 @@
 # Trident Dehazing Network
 NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020)  **1st** Solution.
 
+[[report]]( https://arxiv.org/pdf/2005.03457.pdf )
+
 ### Environment:
 
 - Ubuntu16.04
@@ -16,7 +18,7 @@ NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020)  **1st** Solut
 
 ### Test
 
-Compile the DCN module fisrt. If your environment is the same as ours, compile was done. If your pytorch version is >=1.0.0, use DCNv2_pytorch1.
+Compile the DCN module fisrt. If your environment is the same as ours, compile was done. If your pytorch version is 1.0.0, use DCNv2_pytorch1.
 
 Check the hazy images path (test.py line 14), the model path (test.py line 13) and the output path (test.py line 15)
 
