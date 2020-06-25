@@ -1,7 +1,8 @@
 # Trident Dehazing Network
 NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020)  **1st** Solution.
 
-[[report]]( https://arxiv.org/pdf/2005.03457.pdf )
+[[Challenge report]]( https://arxiv.org/pdf/2005.03457.pdf )
+[[TDN paper]]http://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Liu_Trident_Dehazing_Network_CVPRW_2020_paper.pdf
 
 ### Environment:
 
